@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: todo-app
+spec:
+  containers:
+  - name: todo-app
+    image: devesh121/react_todo:latest
+    ports:
+    - containerPort: 5173
+
